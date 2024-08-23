@@ -1,0 +1,53 @@
+body {
+    color: rgb(0, 0, 0) ;
+    background:  rgb(0, 0, 0);
+    font-family: "Jersey 25", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom:  2px  rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 35px;
+    color: 2px rgb(42, 122, 228);
+}
+
+section {
+    background: rgb(39, 39, 39);
+    padding-bottom: 40px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 20px;
+}
+
+img {
+    height: 100px;
+}
+
+.categorias {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoriaa {
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+
+ .categorias img {
+    opacity: 0.5;
+ }
+
+ .categorias img:hover {
+    opacity: 1.0;
+    border: 1px solid green;
+ }
+
+ .categoria h2 {
+    color: rgb(42, 122, 228)
+ }
